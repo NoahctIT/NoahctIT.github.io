@@ -12,7 +12,7 @@ body {
   color: #333;
   padding-bottom: 50px;
 }
-
+/* ------ Header and Nav ------ */
 header {
   background: #004080;
   color: white;
@@ -41,7 +41,7 @@ nav a {
   color: white;
   text-decoration: none;
 }
-
+/* Highlight the active navigation link */
 nav .active a {
   text-decoration: underline;
 }
@@ -57,7 +57,7 @@ main {
   width: 100%;
   height: auto;
 }
-
+/* --- Footer --- */
 footer {
   text-align: center;
   padding: 1rem;
@@ -65,7 +65,7 @@ footer {
   position: relative;
   margin-top: 2rem;
 }
-
+/* --Images -- */
 .btn {
   display: inline-block;
   background: #004080;
