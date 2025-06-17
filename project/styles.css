@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding-bottom: 50px;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  vertical-align: middle;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0.5rem;
+  background: #003060;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .active a {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ddd;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #004080;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.thumb {
+  width: 200px;
+  margin: 10px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #eee;
+}
+
+/* Form */
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
