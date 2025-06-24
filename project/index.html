@@ -1,8 +1,4 @@
-<!-- 
-  Author: Noah Thompson
-  Project: UNiteConnect
-  Course: CST 231
--->
+<!-- first input doctype for html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +7,14 @@
   <title>UNiteConnect - Home</title>
   <link rel="stylesheet" href="styles.css"/>
 </head>
-  <!-- Header Section: Logo, Site Name, Navigation Bar -->
 <body>
+<!-- image and logo created for my main page of my website -->
   <header>
     <img src="images/Unite-logo.jpg" alt="UNiteConnect Logo" class="logo"/>
     <h1>UNiteConnect</h1>
     <nav>
       <ul>
+       <!-- links embedded within my website which allows for user navigation within the site-->
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="events.html">Events</a></li>
@@ -25,8 +22,9 @@
       </ul>
     </nav>
   </header>
-<!-- Main Content Section -->
+
   <main>
+    <!-- inserting banners using jpg files-->
     <section class="hero">
       <img src="images/communitybanner.jpg" alt="Community collaboration banner"/>
     </section>
@@ -44,14 +42,18 @@
         <li>Open Mic – July 10</li>
       </ul>
     </section>
-
+    <!-- section for my AJAx request which will be Random fun facts -->
+<section class="fact-section">
+  <h3>Random Fun Fact</h3>
+  <p id="fact-text">Loading fact...</p>
+</section>
     <div class="buttons">
       <a href="projects.html" class="btn">View Community Projects</a>
       <a href="events.html" class="btn">See Upcoming Events</a>
       <a href="contact.html" class="btn">Contact Us</a>
     </div>
   </main>
-<!-- Footer Section Includes copyright and validation -->
+<!-- footer content for the user -->
   <footer>
     <p>&copy; 2025 UNiteConnect. All rights reserved.</p>
     <div class="validators">
@@ -59,5 +61,6 @@
       <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
     </div>
   </footer>
+  <script src="funfact.js"></script>
 </body>
 </html>

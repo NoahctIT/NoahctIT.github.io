@@ -1,51 +1,81 @@
-<main>
-  <!-- Event table listing community events -->
-  <h2>Community Projects</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Project Title</th>
-        <th>Organizer</th>
-        <th>Start Date</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Neighborhood Cleanup</td>
-        <td>Andrew Nembhard</td>
-        <td>June 20, 2025</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>Community Garden</td>
-        <td>Jalen Williams</td>
-        <td>July 2, 2025</td>
-        <td>Upcoming</td>
-      </tr>
-      <tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Community Projects - UNiteConnect</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="projects">
+
+  <!-- Site header and navigation -->
+  <header>
+    <img src="images/Unite-logo.jpg" alt="UNiteConnect Logo" class="logo"/>
+    <h1>UNiteConnect</h1>
+    <nav>
+      <ul>
+        <li class="home"><a href="index.html">Home</a></li>
+        <li class="projects"><a href="projects.html">Projects</a></li>
+        <li class="events"><a href="events.html">Events</a></li>
+        <li class="contact"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page title -->
+    <h2>Community Projects</h2>
+
+    <!-- Projects table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Project Title</th>
+          <th>Organizer</th>
+          <th>Start Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Neighborhood Cleanup</td>
+          <td>Andrew Nembhard</td>
+          <td>June 20, 2025</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>Community Garden</td>
+          <td>Jalen Williams</td>
+          <td>July 2, 2025</td>
+          <td>Upcoming</td>
+        </tr>
+        <tr>
           <td>Open Mic Night</td>
           <td>Shai Alexander</td>
           <td>August 3, 2025</td>
-          <td>upcoming</td>
+          <td>Upcoming</td>
         </tr>
-    </tbody>
-  </table>
-<!-- Join a project form -->
-  <h3>Join a Project</h3>
-  <form>
-    <label>Name: <input type="text" required /></label><br/>
-    <label>Email: <input type="email" required /></label><br/>
-    <label>Phone: <input type="tel" /></label><br/>
-    <label>Why Join?:<br/><textarea></textarea></label><br/>
-    <button type="submit">Submit</button>
-  </form>
-    <p><a href="index.html" class="return-home">← Return to Homepage</a></p>
-</main>
+      </tbody>
+    </table>
 
- <footer>
+    <!-- Join a project form -->
+    <h3>Join a Project</h3>
+    <form>
+      <label>Name: <input type="text" required /></label><br />
+      <label>Email: <input type="email" required /></label><br />
+      <label>Phone: <input type="tel" /></label><br />
+      <label>Why Join?:<br /><textarea></textarea></label><br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Link back to homepage -->
+    <p><a href="index.html" class="return-home">← Return to Homepage</a></p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
     <p>&copy; 2025 UNiteConnect. All rights reserved.</p>
-    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a><br>
+    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a><br />
     <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
   </footer>
 </body>
